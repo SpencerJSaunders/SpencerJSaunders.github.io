@@ -1,0 +1,360 @@
+html {
+  font-size: 62.5%; }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+body {
+  box-sizing: border-box; }
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem); }
+  80% {
+    transform: translateX(2rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem); }
+  80% {
+    transform: translateX(-20rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveDownFromTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-20rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveUpFromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(20rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+.heading-primary {
+  margin-bottom: 6rem;
+  font-weight: 400; }
+  .heading-primary--main {
+    font-size: 7rem;
+    display: block;
+    animation-name: moveDownFromTop;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    backface-visibility: hidden;
+    letter-spacing: .5rem; }
+  .heading-primary--sub {
+    display: block;
+    font-size: 4rem;
+    animation: moveUpFromBottom 1s ease-out;
+    letter-spacing: .5rem; }
+
+body {
+  font-family: 'Lato', sans-serfif !important;
+  font-weight: 400;
+  line-height: 1.7;
+  padding: 0; }
+
+.paragraph {
+  font-size: 1.6rem; }
+  .paragraph:not(:last-child) {
+    margin-bottom: 3rem; }
+
+.section-title {
+  text-align: center;
+  font-size: 5rem;
+  transition: all .2s; }
+  .section-title--white {
+    color: white; }
+
+.social-logos {
+  font-size: 4rem;
+  position: fixed; }
+  .social-logos a {
+    margin-right: 20px; }
+    .social-logos a i {
+      display: inline-block;
+      color: #fff;
+      transition: all .3s; }
+      .social-logos a i:hover {
+        transform: translateY(-10px);
+        color: #ece6e6; }
+
+.u-center-text {
+  text-align: center; }
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem; }
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem; }
+
+.text-color-white {
+  color: white; }
+
+/*
+
+put sections here 
+
+*/
+.header {
+  height: 95vh;
+  color: #fff;
+  background-image: url("../img/mountains.gif");
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 100%);
+  position: relative; }
+  .header__text-box {
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .header__socials {
+    top: 5%;
+    left: 5%;
+    position: absolute; }
+
+.skills-section {
+  margin-top: -25rem;
+  padding: 20rem 0 25rem 0;
+  background-color: #b8c6db;
+  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%); }
+
+.projects-section {
+  transform: skewY(-7deg);
+  background-color: purple;
+  padding: 10rem 0 20rem 0;
+  margin-top: -12rem; }
+  .projects-section > * {
+    transform: skewY(7deg); }
+
+/*
+
+.btn {
+    &:link, &:visited {
+        text-transform: uppercase;
+        text-decoration: none;
+        border-radius: 10rem;
+        padding: 1.5rem 4rem;
+        display: inline-block;
+        transition: all .2s;
+        position: relative;
+        font-size: 1.6rem;
+    }
+    
+    &:hover {
+        transform: translateY(-.3rem);
+        box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+
+        &::after {
+            transform: scale(2);
+            opacity: 0;
+        }
+    }
+    
+    &:active {
+        transform: translateY(-.1rem);
+        box-shadow: 0 .5rem 1rem rgba($color-black, 0.2);
+    }
+    
+    &--white {
+        background-color: $color-white;
+        color: $color-grey-dark;
+
+        &::after {
+            background-color: $color-white;
+        }
+    }
+    
+    &::after {
+        content: '';
+        display:inline-block;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        border-radius: 10rem;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: all .4s;
+    }
+        
+    
+    
+}
+
+
+.button {
+    &:link, &:visited {
+
+    }
+
+    &:hover {
+
+    }
+    
+}
+
+*/
+/* .composition {
+
+    position: relative;
+
+    &__photo {
+        width: 55%;
+        box-shadow: 0 1.5rem 4rem rgba($color-black, .4);
+        border-radius: 3px;
+        position: absolute;
+        z-index: 10;
+        transition: all .2s;
+        outline-offset: 2rem;
+
+        &--p1 {
+            left: 0;
+            top: -2rem;
+        }
+
+        &--p2 {
+            right: 0;
+            top: 2rem;
+        }
+
+        &--p3 {
+            left: 20%;
+            top: 10rem;
+        }
+
+        &:hover {
+            transform: scale(1.05);
+            box-shadow: 0 1.5rem 4rem rgba($color-black, .5);
+            z-index: 11;
+            outline: 1.5rem solid $color-primary;
+        }
+    }
+
+    &:hover &__photo:not(:hover) {
+        transform: scale(.95);
+    }
+}
+
+*/
+.skill-box {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  position: relative;
+  padding: 2rem;
+  padding-top: 5rem;
+  transition: all .2s; }
+  .skill-box:hover {
+    transform: scale(110%); }
+  .skill-box__icon {
+    position: absolute;
+    font-size: 5rem;
+    padding: 2rem;
+    top: -5rem;
+    z-index: 2;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    background-color: #4287f5;
+    border-radius: 50%;
+    color: white; }
+  .skill-box__title {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem; }
+
+/*
+.row {
+    .skill-box:first-of-type {
+        margin-bottom: 7rem;
+    }
+}
+
+.skill-box-container {
+    margin-bottom: 7rem;
+}
+
+*/
+.project-box__image {
+  transition: all .3s;
+  height: 20rem;
+  background-image: url("../img/crypto.jpg");
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-size: cover;
+  position: relative; }
+  .project-box__image:hover {
+    background-color: orange;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    opacity: .9; }
+    .project-box__image:hover i {
+      visibility: visible; }
+  .project-box__image i {
+    display: block;
+    font-size: 6rem;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    visibility: hidden; }
+
+/*
+
+put sections here 
+
+*/
+.header {
+  height: 95vh;
+  color: #fff;
+  background-image: url("../img/mountains.gif");
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 100%);
+  position: relative; }
+  .header__text-box {
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .header__socials {
+    top: 5%;
+    left: 5%;
+    position: absolute; }
+
+.skills-section {
+  margin-top: -25rem;
+  padding: 20rem 0 25rem 0;
+  background-color: #b8c6db;
+  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%); }
+
+.projects-section {
+  transform: skewY(-7deg);
+  background-color: purple;
+  padding: 10rem 0 20rem 0;
+  margin-top: -12rem; }
+  .projects-section > * {
+    transform: skewY(7deg); }

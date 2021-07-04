@@ -1,0 +1,79 @@
+
+
+.heading-primary {
+    margin-bottom: 6rem;
+    font-weight: 400;
+
+        &--main {
+            font-size: 7rem;
+            display: block;
+            animation-name: moveDownFromTop;
+            animation-duration: 1s;
+            animation-timing-function: ease-out;
+            backface-visibility: hidden;
+            letter-spacing: .5rem;
+        }
+        
+        &--sub {
+            display: block;
+            font-size: 4rem;
+            animation: moveUpFromBottom 1s ease-out;
+            letter-spacing: .5rem;
+
+        }
+    
+}
+
+
+
+    body {
+        font-family: 'Lato', sans-serfif !important;
+        font-weight: 400;
+        line-height: 1.7;
+        padding: 0;
+    }
+
+
+    .paragraph {
+        font-size: $default-font-size;
+
+        &:not(:last-child) {
+            margin-bottom: 3rem;
+        }
+    }
+
+
+    .section-title {
+        text-align: center;
+        font-size: 5rem;
+        transition: all .2s;
+
+        &--white {
+            color: white;
+        }
+    }
+
+    .social-logos {
+        font-size: 4rem;
+
+        position: fixed;
+
+        a {
+
+            margin-right: 20px;
+
+            i {
+                display: inline-block;
+                color: $color-white;
+                transition: all .3s;
+
+                &:hover {
+                    transform: translateY(-10px);
+                    color: rgb(236, 230, 230);
+                }
+
+            }
+
+        }
+
+    }
