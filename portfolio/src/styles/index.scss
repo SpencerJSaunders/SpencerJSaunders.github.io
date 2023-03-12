@@ -6,16 +6,8 @@
   box-sizing: border-box;
 }
 
-@media (min-width: 992px) {
-  html {
-    font-size: 62.5%;
-  }
-}
-
-@media (min-width: 767px) {
-  html {
-    font-size: 100%;
-  }
+html {
+  font-size: 62.5%;
 }
 
 .container {
@@ -23,4 +15,39 @@
   margin: 0 auto;
   border: solid 1px black;
   padding: 2rem;
+}
+
+.portfolio-banner {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-image: url("../mountains.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  // Use flex to center text in the banner.
+  &__text-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    text-align: center;
+
+    &__name {
+      font-size: 8rem;
+    }
+
+    &__occupation {
+      margin-top: 1rem;
+      font-size: 5rem;
+    }
+  }
+}
+
+p,
+span {
+  font-size: 1.6rem;
 }

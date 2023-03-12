@@ -1,17 +1,13 @@
+import PortfolioHeader from "./PortfolioHeader";
+import PortfolioMainContent from "./PortfolioMainContent";
+import PortfolioFooter from "./PortfolioFooter";
+
 const App = () => {
   return (
-    <div className='container'>
-      <header>
-        <h1>Title</h1>
-        <h2>Title</h2>
-        <p>Header</p>
-      </header>
-      <main>
-        <p>Main</p>
-      </main>
-      <footer>
-        <p>Footer</p>
-      </footer>
+    <div>
+      <PortfolioHeader />
+      <PortfolioMainContent />
+      <PortfolioFooter />
     </div>
   );
 };
