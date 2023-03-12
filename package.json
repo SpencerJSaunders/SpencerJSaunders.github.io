@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "react-burger-menu": "^3.0.9",
     "sass": "^1.58.3"
   },
   "devDependencies": {
