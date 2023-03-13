@@ -1,7 +1,9 @@
+import EmploymentHistory from "./EmploymentHistory";
+
 const PortfolioMainContent = () => {
     return (
       <main>
-        <p>Main Content</p>
+        <EmploymentHistory />
       </main>
     );
   };
