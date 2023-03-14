@@ -4,11 +4,11 @@ import PortfolioFooter from "./PortfolioFooter";
 
 const App = () => {
   return (
-    <div>
+    <>
       <PortfolioHeader />
       <PortfolioMainContent />
       <PortfolioFooter />
-    </div>
+    </>
   );
 };
 

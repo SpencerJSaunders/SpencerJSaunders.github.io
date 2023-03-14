@@ -50,7 +50,6 @@ const EmploymentHistory = () => {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="November 2019 - July 2021"
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<img src={NerveRenewLogo} alt="Nerve Renew logo" />}
           >
             <h3 className="vertical-timeline-element-title">Nerve Renew</h3>
@@ -62,7 +61,6 @@ const EmploymentHistory = () => {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="January 2019 - April 2019"
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<img src={WiFiRangerLogo} alt='WiFi Ranger logo' />}
           >
             <h3 className="vertical-timeline-element-title">WiFi Ranger</h3>
@@ -74,7 +72,7 @@ const EmploymentHistory = () => {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="August 2015 - December 2019"
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            iconStyle={{ background: "#fff"}}
             icon={<img src={BoiseStateLogo} alt='Boise State University logo' />}
           >
             <h3 className="vertical-timeline-element-title">Boise State University</h3>

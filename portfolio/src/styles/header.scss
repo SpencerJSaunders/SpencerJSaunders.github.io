@@ -23,7 +23,19 @@
   
       &__occupation {
         margin-top: 1rem;
-        font-size: 5rem;
+        font-size: 4rem;
       }
+    }
+
+    &__socials {
+      position: absolute;
+      right: 2rem;
+      width: 5%;
+      height: 10%;
+      display: flex;
+      color: white;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: row-reverse;
     }
   }
