@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Sono', sans-serif;
+  font-family: "Sono", sans-serif;
 }
 
 html {
@@ -41,8 +41,52 @@ h4 {
 
 .employment-history {
   background-color: #e6efff;
+  padding: 5rem 0;
+
+  img {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+  }
+  /* Using plain CSS */
+  @media (min-width: 1170px) {
+    img {
+      height: 6rem;
+      width: 6rem;
+    }
+  }
 }
 
-.vertical-timeline p {
-  font-size: 1.6rem;
+.vertical-timeline-element--work p {
+  font-size: 1.6rem !important;
+}
+
+.vertical-timeline-element-subtitle {
+  font-weight: normal;
+}
+
+.vertical-timeline-element-date {
+  font-size: 1.6rem !important;
+  font-weight: bold !important;
+  color: black !important;
+}
+
+.fade-in {
+  animation: fadeIn ease 3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.section-title {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 6rem;
 }

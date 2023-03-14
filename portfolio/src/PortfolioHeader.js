@@ -6,10 +6,10 @@ const PortfolioHeader = () => {
       <div className="portfolio-banner">
         <div className="portfolio-banner__text-container">
           <div>
-            <h2 className="portfolio-banner__text-container__name">
+            <h2 className="fade-in portfolio-banner__text-container__name">
               Spencer Saunders
             </h2>
-            <p className="portfolio-banner__text-container__occupation">
+            <p className="fade-in portfolio-banner__text-container__occupation">
               Front End Developer
             </p>
           </div>
