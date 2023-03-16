@@ -7,12 +7,12 @@ const PortfolioHeader = () => {
     <header>
       <div className="portfolio-banner">
         <div className="portfolio-banner__socials">
-          <a href="https://github.com">
-            <FontAwesomeIcon size='4x' icon={faGithub} />
-          </a>
-          <a href="https:/linkedin.com">
-            <FontAwesomeIcon size='4x' icon={faLinkedin} />
-          </a>
+          {/* <a href="https://github.com"> */}
+            <FontAwesomeIcon size="4x" icon={faGithub} />
+          {/* </a> */}
+          {/* <a href="https://linkedin.com"> */}
+          <FontAwesomeIcon size="4x" icon={faLinkedin}></FontAwesomeIcon>
+          {/* </a> */}
         </div>
         <div className="portfolio-banner__text-container">
           <div>

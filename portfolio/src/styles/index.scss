@@ -14,7 +14,6 @@ html {
 .container {
   width: 90%;
   margin: 0 auto;
-  border: solid 1px black;
   padding: 2rem;
 }
 
@@ -41,8 +40,6 @@ h4 {
 
 .employment-history {
   background-color: #e6efff;
-  padding: 5rem 0;
-
   img {
     height: 4rem;
     width: 4rem;
@@ -55,20 +52,6 @@ h4 {
       width: 6rem;
     }
   }
-}
-
-.vertical-timeline-element--work p {
-  font-size: 1.6rem !important;
-}
-
-.vertical-timeline-element-subtitle {
-  font-weight: normal;
-}
-
-.vertical-timeline-element-date {
-  font-size: 1.6rem !important;
-  font-weight: bold !important;
-  color: black !important;
 }
 
 .fade-in {
@@ -84,9 +67,37 @@ h4 {
   }
 }
 
+.section {
+  padding: 5rem 0;
+  &__heading {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
 
-.section-title {
-  font-size: 4rem;
-  text-align: center;
-  margin-bottom: 6rem;
+  &__subheading {
+    text-align: center;
+    margin-bottom: 6rem;
+  }
+}
+
+.skills-list {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+
+  &__skill {
+    padding: 3rem;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid black;
+    flex-basis: 20%;
+  }
+
+
+  @media (min-width: 767px) {
+    .skills-list {
+      flex-direction: row;
+    }
+  }
 }

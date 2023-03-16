@@ -8,11 +8,13 @@ import LibertyITSolutionsLogo from "./imgs/liberty.jpg";
 import NerveRenewLogo from './imgs/NerveRenew.jpg';
 import WiFiRangerLogo from './imgs/wifiranger.jpg';
 import BoiseStateLogo from './imgs/bronco.png';
+import '../src/styles/timeline.scss';
 
 const EmploymentHistory = () => {
   return (
-    <div className="employment-history">
-      <h2 className='section-title'>Work and Education History</h2>
+    <section className="section employment-history">
+      <h2 className='section__heading'>Work and Education History</h2>
+      <p className='section__subheading'>My past work experience and educational background</p>
       <div>
         <VerticalTimeline>
           <VerticalTimelineElement
@@ -83,7 +85,7 @@ const EmploymentHistory = () => {
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
-    </div>
+    </section>
   );
 };
 
