@@ -32,7 +32,7 @@ const EmploymentHistory = () => {
             <h4 className="vertical-timeline-element-subtitle">
               Software Developer
             </h4>
-            <p>Worked on a large-scale healthcare application</p>
+            <p>Worked on a large-scale healthcare application using React, TypeScript, Sass, React Testing Library, Jest, MobX</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -60,7 +60,7 @@ const EmploymentHistory = () => {
             <h4 className="vertical-timeline-element-subtitle">
               Front End Developer
             </h4>
-            <p>Worked on building web funnels</p>
+            <p>Built multiple web funnels for customers to place orders using CSS, JavaScript, PHP, React</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -71,7 +71,7 @@ const EmploymentHistory = () => {
             <h4 className="vertical-timeline-element-subtitle">
               Software Developer - Intern
             </h4>
-            <p>Worked on voice recognition software</p>
+            <p>Worked on voice recognition software that was embedded in RV routers</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -88,7 +88,7 @@ const EmploymentHistory = () => {
               BA - Computer Science
             </h4>
             <p>
-              Notable coursework: Web Development, Databases, Data Structures,
+              <span className="font-weight-bold">Notable coursework:</span> Web Development, Databases, Data Structures,
               Algorithms, Programming Languages
             </p>
           </VerticalTimelineElement>
