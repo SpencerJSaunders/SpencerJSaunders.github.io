@@ -13,6 +13,9 @@ const PortfolioHeader = () => {
           {/* <a href="https://linkedin.com"> */}
           <FontAwesomeIcon size="4x" icon={faLinkedin}></FontAwesomeIcon>
           {/* </a> */}
+
+          {/* Mail icon */}
+          {/*  Resume link  */}
         </div>
         <div className="portfolio-banner__text-container">
           <div>

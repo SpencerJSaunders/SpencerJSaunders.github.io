@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faReact, faGit, faJs, faNpm } from "@fortawesome/free-brands-svg-icons";
-import { faPeopleGroup, faTerminal } from "@fortawesome/free-solid-svg-icons";
+import { faReact, faGit, faJs} from "@fortawesome/free-brands-svg-icons";
+import { faPeopleGroup, faMicroscope, faUniversalAccess } from "@fortawesome/free-solid-svg-icons";
 
 const SkillsSection = () => {
   return (
@@ -14,29 +14,35 @@ const SkillsSection = () => {
         <div className="skills-list">
           <div className="skills-list__skill">
             <FontAwesomeIcon size='7x' icon={faReact}/>
-            <p>React</p>
+            <h4>React</h4>
+            <p>3+ years of experience with React including React libraries like React Router, React Redux, and Mobx React Form.</p>
           </div>
           <div className="skills-list__skill">
           <FontAwesomeIcon size='7x' icon={faGit}/>
-            <p>Version Control</p>
+            <h4>Version Control</h4>
+            <p>5+ years of experience working with git version control. Experience using GitHub, GitLab, and BitBucket for verion control.</p>
           </div>
           <div className="skills-list__skill">
           <FontAwesomeIcon size='7x' icon={faJs}/>
-            <p>Programming languages</p>
+            <h4>Programming Languages</h4>
+            <p>5+ years of experience with HTML, CSS, Sass, and JavaScript. Also have experience with TypeScript. Some exposure to Python and Java.</p>
           </div>
         </div>
         <div className="skills-list" style={{marginTop: '3rem'}}>
           <div className="skills-list__skill">
           <FontAwesomeIcon size='7x' icon={faPeopleGroup}/>
-            <p>Agile</p>
+            <h4>Agile</h4>
+            <p>4+ years of experience working in Agile environments with developers, stakeholders, business analysts, and designers.</p>
           </div>
           <div className="skills-list__skill">
-           <FontAwesomeIcon size='7x' icon={faTerminal}/>
-            <p>Development Environments</p>
+           <FontAwesomeIcon size='7x' icon={faUniversalAccess}/>
+            <h4>Accessibility</h4>
+            <p>Experience using Axe, Jaws, and Semantic HTML to create accessible 508-compliant websites.</p>
           </div>
           <div className="skills-list__skill">
-            <FontAwesomeIcon size='7x' icon={faNpm} />
-            <p>Libraries</p>
+            <FontAwesomeIcon size='7x' icon={faMicroscope} />
+            <h4>Unit Testing</h4>
+            <p>Experience writing unit tests with Jest and React Testing Library to reach 90% minimum code coverage.</p>
           </div>
         </div>
       </div>

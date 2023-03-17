@@ -14,7 +14,6 @@ html {
 .container {
   width: 90%;
   margin: 0 auto;
-  padding: 2rem;
 }
 
 p,
@@ -90,26 +89,57 @@ h4 {
   &__skill {
     padding: 3rem;
     border-radius: 4px;
-    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+      0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
     text-align: center;
     flex-basis: 25%;
     margin-bottom: 2rem;
 
-    p:first-of-type {
-
-      margin: 1rem 0;
+    h4 {
+      margin: 2rem 0 1rem 0;
+      font-weight: bold;
     }
   }
-
 
   @media (min-width: 767px) {
     .skills-list {
       flex-direction: row;
-    
+
       &__skill {
         margin-bottom: 0;
       }
-
     }
+  }
+}
+
+.projects-section {
+  background-color: #e6efff;
+  &__project-list {
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content: space-evenly;
+    &__item {
+      flex-basis: 30%;
+      background-color: white;
+      text-align: center;
+      padding: 3rem;
+      border-radius: 4px;
+      box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+        0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+    }
+  }
+}
+
+.footer {
+  background-color: darkslategrey;
+  color: white;
+
+  &__contact-icons {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
   }
 }
