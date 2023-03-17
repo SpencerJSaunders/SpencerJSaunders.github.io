@@ -84,20 +84,32 @@ h4 {
 .skills-list {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   flex-direction: column;
 
   &__skill {
     padding: 3rem;
-    border-radius: 5px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
     text-align: center;
-    border: 1px solid black;
-    flex-basis: 20%;
+    flex-basis: 25%;
+    margin-bottom: 2rem;
+
+    p:first-of-type {
+
+      margin: 1rem 0;
+    }
   }
 
 
   @media (min-width: 767px) {
     .skills-list {
       flex-direction: row;
+    
+      &__skill {
+        margin-bottom: 0;
+      }
+
     }
   }
 }
