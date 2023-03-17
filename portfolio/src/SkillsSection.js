@@ -6,7 +6,7 @@ const SkillsSection = () => {
   return (
     <section className="section skills-list">
       <div className="container">
-        <h2 className="section__heading">Skills List</h2>
+        <h2 className="section__heading">Skills</h2>
         <p className="section__subheading">
           Skills including programming languages, libraries, tools, and development
           environments
