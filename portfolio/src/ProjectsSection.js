@@ -46,7 +46,7 @@ const ProjectsSection = () => {
             </a>
           </div>
           <div className="projects-section__project-list__item">
-            <img src={require("./imgs/spencer-portfolio.PNG")} alt="Cryptocurrency" />
+            <img src={require("./imgs/spencer-portfolio.png")} alt="Cryptocurrency" />
             <h4>Personal Portfolio</h4>
             <a
               rel="noreferrer"

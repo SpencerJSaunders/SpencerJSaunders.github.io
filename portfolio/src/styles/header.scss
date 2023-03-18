@@ -29,13 +29,13 @@
 
     &__socials {
       position: absolute;
-      right: 2rem;
-      width: 5%;
-      height: 10%;
+      gap: 1rem;
+      top: 1rem;
+      right: 1rem;
       display: flex;
       color: white;
       align-items: center;
-      justify-content: space-around;
+      justify-content: space-between;
       flex-direction: row-reverse;
     }
   }
