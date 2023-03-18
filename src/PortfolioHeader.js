@@ -17,7 +17,7 @@ const PortfolioHeader = () => {
           <a href="https://linkedin.com">
             <FontAwesomeIcon size="4x" icon={faLinkedin} />
           </a>
-          <a href="./resume.pdf" download="Spencer Saunders Resume">
+          <a className='portfolio-banner__download-resume-link' href="./resume.pdf" download="Spencer Saunders Resume">
             Download my Resume
           </a>
         </div>

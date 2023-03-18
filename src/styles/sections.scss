@@ -75,9 +75,10 @@
 .about-section {
   text-align: center;
   &__picture {
-    margin: 3rem 0;
+    margin: 2rem 0;
     border-radius: 50%;
     width: 30rem;
+    border: 5px solid rgb(58, 100, 189);
     height: auto;
   }
 
@@ -100,5 +101,36 @@
     align-items: center;
     gap: 2rem;
     justify-content: center;
+  }
+}
+
+.skills-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+
+  &__skill {
+    @include flex-item;
+    margin-bottom: 0;
+    flex-basis: 30%;
+
+    h4 {
+      margin: 2rem 0 1rem 0;
+      font-weight: bold;
+    }
+  }
+
+  @include respond(tab-port) {
+    flex-direction: column;
+
+    &__skill {
+      margin-bottom: 2rem;
+      flex-basis: 100%;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
   }
 }
