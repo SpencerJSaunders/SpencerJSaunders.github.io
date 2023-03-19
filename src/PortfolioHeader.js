@@ -24,7 +24,7 @@ const PortfolioHeader = () => {
           <a
             className="portfolio-banner__download-resume-link"
             href={require("./resume.pdf")}
-            download
+            download='Spencer Saunders Resume'
           >
             Download my Resume
           </a>
