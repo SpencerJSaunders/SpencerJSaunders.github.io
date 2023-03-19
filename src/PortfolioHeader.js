@@ -9,22 +9,31 @@ const PortfolioHeader = () => {
       <div className="portfolio-banner">
         <div className="portfolio-banner__socials">
           <a
+            className="contact-icon"
             rel="noreferrer"
             target="_blank"
             href="https://github.com/SpencerJSaunders"
           >
             <FontAwesomeIcon size="4x" icon={faGithub} />
           </a>
-          <a href="mailto: spencersaunders1537@gmail.com">
+          <a
+            className="contact-icon"
+            href="mailto: spencersaunders1537@gmail.com"
+          >
             <FontAwesomeIcon size="4x" icon={faEnvelope} />
           </a>
-          <a rel="noreferrer" target="_blank" href="https://linkedin.com">
+          <a
+            className="contact-icon"
+            rel="noreferrer"
+            target="_blank"
+            href="https://linkedin.com"
+          >
             <FontAwesomeIcon size="4x" icon={faLinkedin} />
           </a>
           <a
             className="portfolio-banner__download-resume-link"
             href={require("./resume.pdf")}
-            download='Spencer Saunders Resume'
+            download="Spencer Saunders Resume"
           >
             Download my Resume
           </a>

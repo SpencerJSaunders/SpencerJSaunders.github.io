@@ -130,6 +130,13 @@
 
     a {
       color: white;
+      padding: 10px;
+      transition: .3s;
+      border-radius: 47%;
+      &:hover {
+        background-color: white;
+        color: black;
+      }
     }
   }
 }
