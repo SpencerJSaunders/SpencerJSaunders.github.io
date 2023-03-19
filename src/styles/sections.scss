@@ -18,8 +18,18 @@
   background-color: #e6efff;
   img {
     border-radius: 50%;
-    height: 5rem;
-    height: 5rem;
+    @media (max-width: 1170px) {
+      height: 4.6rem;
+      height: 4.6rem;
+    }
+
+    height: 6rem;
+    height: 6rem;
+
+    @include respond(big-desktop) {
+      height: 5.1rem;
+      width: 5.1rem;
+    }
   }
 }
 

@@ -21,11 +21,18 @@
   
       &__name {
         font-size: 8rem;
+
+        @include respond(phone) {
+          font-size: 7rem;
+        }
       }
   
       &__occupation {
         margin-top: 1rem;
         font-size: 4rem;
+        @include respond(phone) {
+          font-size: 3rem;
+        }
       }
     }
 

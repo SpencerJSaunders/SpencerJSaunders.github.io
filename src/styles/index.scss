@@ -28,6 +28,12 @@ html {
   }
 }
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .container {
   width: 90%;
   margin: 0 auto;
@@ -54,16 +60,6 @@ h4 {
   font-size: 2rem;
 }
 
-
 .fade-in {
   animation: fadeIn ease 3s;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }
