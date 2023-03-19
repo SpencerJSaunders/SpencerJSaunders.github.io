@@ -4,7 +4,7 @@ import { faPeopleGroup, faMicroscope, faUniversalAccess } from "@fortawesome/fre
 
 const SkillsSection = () => {
   return (
-    <section className="section skills-section-container">
+    <section className="section">
       <div className="container">
         <h2 className="section__heading">Skills</h2>
         <p className="section__subheading">
