@@ -16,6 +16,8 @@
 
 .employment-history {
   background-color: #e6efff;
+  padding-bottom: 14rem;
+
   img {
     border-radius: 50%;
     @media (max-width: 1170px) {
@@ -118,6 +120,21 @@
   }
 }
 
+.skills-section-container {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -6rem;
+    left: 0;
+    right: 0;
+    background-color: white;
+    transform: skewY(4deg);
+    height: 12rem;
+  }
+}
+
 .skills-list {
   display: flex;
   justify-content: space-around;
@@ -128,6 +145,11 @@
     @include flex-item;
     margin-bottom: 0;
     flex-basis: 30%;
+    transition: 0.4s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
 
     h4 {
       margin: 2rem 0 1rem 0;
