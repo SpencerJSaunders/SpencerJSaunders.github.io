@@ -11,7 +11,7 @@ const ProjectsSection = () => {
             <a
               rel="noreferrer"
               target="_blank"
-              href="https://spencerjsaunders.github.io"
+              href="https://github.com/SpencerJSaunders/budgeting"
               className="projects-section__button"
             >
               Source Code
@@ -19,7 +19,7 @@ const ProjectsSection = () => {
             <a
               rel="noreferrer"
               target="_blank"
-              href="https://spencerjsaunders.github.io"
+              href="https://spencerjsaunders.github.io/budgeting"
               className="projects-section__button"
             >
               Website Link
@@ -31,7 +31,7 @@ const ProjectsSection = () => {
             <a
               rel="noreferrer"
               target="_blank"
-              href="https://spencerjsaunders.github.io"
+              href="https://github.com/SpencerJSaunders/crypto-market-watch"
               className="projects-section__button"
             >
               Source Code
@@ -39,19 +39,19 @@ const ProjectsSection = () => {
             <a
               rel="noreferrer"
               target="_blank"
-              href="https://spencerjsaunders.github.io"
+              href="https://spencerjsaunders.github.io/crypto-market-watch"
               className="projects-section__button"
             >
               Website Link
             </a>
           </div>
           <div className="projects-section__project-list__item">
-            <img src={require("./imgs/spencer-portfolio.png")} alt="Cryptocurrency" />
+            <img src={require("./imgs/spencer-portfolio.png")} alt="Spencer Saunders Personal Portfolio" />
             <h4>Personal Portfolio</h4>
             <a
               rel="noreferrer"
               target="_blank"
-              href="https://spencerjsaunders.github.io"
+              href="https://github.com/SpencerJSaunders/SpencerJSaunders.github.io"
               className="projects-section__button"
             >
               Source Code

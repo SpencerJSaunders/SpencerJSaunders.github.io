@@ -8,10 +8,10 @@ const PortfolioFooter = () => {
       <div className="container">
         <h2 className="section__heading">Contact Me</h2>
         <div className="footer__contact-icons">
-          <a href="https://www.google.com">
+          <a href="mailto: spencersaunders1537@gmail.com">
             <FontAwesomeIcon size="4x" icon={faEnvelope} />
           </a>
-          <a href='https://www.google.com'>
+          <a href='https://linkedin.com'>
             <FontAwesomeIcon size="4x" icon={faLinkedin} />
           </a>
         </div>

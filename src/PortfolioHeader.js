@@ -8,16 +8,26 @@ const PortfolioHeader = () => {
     <header>
       <div className="portfolio-banner">
         <div className="portfolio-banner__socials">
-          <a href="https://www.github.com">
+          <a
+            rel="noreferrer"
+            target="_blank"
+            href="https://github.com/SpencerJSaunders"
+          >
             <FontAwesomeIcon size="4x" icon={faGithub} />
           </a>
-          <a href="https://www.linkedin.com">
+          <a href="mailto: spencersaunders1537@gmail.com">
             <FontAwesomeIcon size="4x" icon={faEnvelope} />
           </a>
-          <a href="https://www.linkedin.com">
+          <a rel="noreferrer" target="_blank" href="https://linkedin.com">
             <FontAwesomeIcon size="4x" icon={faLinkedin} />
           </a>
-          <a className='portfolio-banner__download-resume-link' href="./resume.pdf" download="Spencer Saunders Resume">
+          <a
+            rel="noreferrer"
+            target="_blank"
+            className="portfolio-banner__download-resume-link"
+            href="./resume.pdf"
+            download="Spencer Saunders Resume"
+          >
             Download my Resume
           </a>
         </div>
