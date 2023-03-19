@@ -22,11 +22,9 @@ const PortfolioHeader = () => {
             <FontAwesomeIcon size="4x" icon={faLinkedin} />
           </a>
           <a
-            rel="noreferrer"
-            target="_blank"
             className="portfolio-banner__download-resume-link"
-            href="./resume.pdf"
-            download="Spencer Saunders Resume"
+            href={require("./resume.pdf")}
+            download
           >
             Download my Resume
           </a>

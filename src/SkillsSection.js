@@ -42,7 +42,7 @@ const SkillsSection = () => {
           <div className="skills-list__skill">
             <FontAwesomeIcon size='7x' icon={faMicroscope} />
             <h4>Unit Testing</h4>
-            <p>Experience writing unit tests with Jest and React Testing Library to reach 90% minimum code coverage.</p>
+            <p>Experience writing unit tests with Jest and React Testing Library to reach full code coverage.</p>
           </div>
         </div>
       </div>
