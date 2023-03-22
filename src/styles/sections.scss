@@ -48,6 +48,19 @@
 }
 
 .projects-section {
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: -6rem;
+    left: 0;
+    right: 0;
+    background-color: #7cb5f2;
+    transform: skewY(-3deg);
+    height: 11rem;
+  }
+
   color: white;
   background-color: #7cb5f2;
   &__project-list {
@@ -131,7 +144,7 @@
     a {
       color: white;
       padding: 10px;
-      transition: .3s;
+      transition: 0.3s;
       border-radius: 47%;
       &:hover {
         background-color: white;
@@ -141,13 +154,19 @@
   }
 }
 
-.skills-list {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: row;
+.skills-section {
+  padding-bottom: 16rem;
+  &__row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
 
-  &__skill {
+    @include respond(tab-port) {
+      flex-direction: column;
+    }
+  }
+  &__item {
     @include flex-item;
     margin-bottom: 0;
     background-color: white;
@@ -162,12 +181,7 @@
       margin: 2rem 0 1rem 0;
       font-weight: bold;
     }
-  }
-
-  @include respond(tab-port) {
-    flex-direction: column;
-
-    &__skill {
+    @include respond(tab-port) {
       margin-bottom: 2rem;
       flex-basis: 100%;
 
