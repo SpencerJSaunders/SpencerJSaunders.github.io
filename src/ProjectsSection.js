@@ -3,7 +3,7 @@ const ProjectsSection = () => {
     <section className="section projects-section">
       <div className="container">
         <h2 className="section__heading">Projects</h2>
-        <p className="section__subheading">Personal projects I've completed</p>
+        <p className="section__subheading">A selection of completed coding projects</p>
         <div className="projects-section__project-list">
           <div className="projects-section__project-list__item">
             <img src={require("./imgs/budget.jpg")} alt="Monthly Budgeting" />
