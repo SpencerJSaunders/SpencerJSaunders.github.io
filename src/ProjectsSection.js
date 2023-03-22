@@ -4,8 +4,8 @@ const ProjectsSection = () => {
       <div className="container">
         <h2 className="section__heading">Projects</h2>
         <p className="section__subheading">A selection of completed coding projects</p>
-        <div className="projects-section__project-list">
-          <div className="projects-section__project-list__item">
+        <div className="projects-section__row">
+          <div className="projects-section__item">
             <img src={require("./imgs/budget.jpg")} alt="Monthly Budgeting" />
             <h4>Monthly Budgeting Application</h4>
             <a
@@ -25,7 +25,7 @@ const ProjectsSection = () => {
               Website Link
             </a>
           </div>
-          <div className="projects-section__project-list__item">
+          <div className="projects-section__item">
             <img src={require("./imgs/crypto.jpeg")} alt="Cryptocurrency" />
             <h4>Cryptocurrency Market Watch</h4>
             <a
@@ -45,7 +45,7 @@ const ProjectsSection = () => {
               Website Link
             </a>
           </div>
-          <div className="projects-section__project-list__item">
+          <div className="projects-section__item">
             <img src={require("./imgs/spencer-portfolio.png")} alt="Spencer Saunders Personal Portfolio" />
             <h4>Personal Portfolio</h4>
             <a

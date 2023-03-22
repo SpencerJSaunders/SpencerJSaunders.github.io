@@ -9,12 +9,12 @@
   background-size: cover;
   // Use flex to center text in the banner.
   &__text-container {
+    color: white;
     position: absolute;
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
-    color: white;
     justify-content: center;
     text-align: center;
 
@@ -34,15 +34,7 @@
       }
     }
   }
-
-  &__download-resume-link {
-    font-size: 1.6rem;
-    @include respond(phone) {
-      display: none;
-    }
-  }
-
-  &__socials {
+  &__contact-info-container {
     z-index: 1;
     position: absolute;
     gap: 1rem;
@@ -52,17 +44,36 @@
     align-items: center;
     justify-content: space-between;
     flex-direction: row-reverse;
+  }
 
-    a {
-      color: white;
-      padding: 12px;
-      transition: 0.3s;
-      border-radius: 47%;
-      
-      &.contact-icon:hover {
-        background-color: white;
-        color: black;
-      }
+  &__contact-icon {
+    color: white;
+    padding: 12px;
+    transition: 0.3s;
+    border-radius: 47%;
+
+    &.contact-icon:hover {
+      background-color: white;
+      color: black;
     }
   }
+
+  &__download-resume-link {
+    color: white;
+    font-size: 1.6rem;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: .3s;
+
+    &:hover {
+      cursor: pointer;
+      background-color: white;
+      color: black;
+    }
+    @include respond(phone) {
+      display: none;
+    }
+  }
+
 }

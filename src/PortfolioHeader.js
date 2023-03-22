@@ -7,9 +7,9 @@ const PortfolioHeader = () => {
   return (
     <header>
       <div className="portfolio-banner">
-        <div className="portfolio-banner__socials">
+        <div className="portfolio-banner__contact-info-container">
           <a
-            className="contact-icon"
+            className="portfolio-banner__contact-icon"
             rel="noreferrer"
             target="_blank"
             href="https://github.com/SpencerJSaunders"
@@ -17,13 +17,13 @@ const PortfolioHeader = () => {
             <FontAwesomeIcon size="4x" icon={faGithub} />
           </a>
           <a
-            className="contact-icon"
+            className="portfolio-banner__contact-icon"
             href="mailto: spencersaunders1537@gmail.com"
           >
             <FontAwesomeIcon size="4x" icon={faEnvelope} />
           </a>
           <a
-            className="contact-icon"
+            className="portfolio-banner__contact-icon"
             rel="noreferrer"
             target="_blank"
             href="https://linkedin.com"

@@ -48,49 +48,37 @@
 }
 
 .projects-section {
-  position: relative;
-
-  &::after {
-    content: "";
-    position: absolute;
-    top: -6rem;
-    left: 0;
-    right: 0;
-    background-color: #7cb5f2;
-    transform: skewY(-3deg);
-    height: 11rem;
-  }
-
   color: white;
   background-color: #7cb5f2;
-  &__project-list {
+  &__row {
     color: black;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    &__item {
-      flex-basis: 30%;
-      margin-bottom: 0;
-      background-color: white;
-      @include flex-item;
-
-      img {
-        max-height: 15rem;
-        max-width: 15rem;
-        margin-bottom: 2rem;
-      }
-
-      h4 {
-        margin-bottom: 3rem;
-      }
-    }
 
     @include respond(tab-land) {
       flex-direction: column;
-      &__item {
-        margin-bottom: 3rem;
-        flex-basis: 100%;
-      }
+    }
+  }
+
+  &__item {
+    flex-basis: 30%;
+    margin-bottom: 0;
+    background-color: white;
+    @include flex-item;
+
+    @include respond(tab-land) {
+      margin-bottom: 3rem;
+      flex-basis: 100%;
+    }
+    img {
+      max-height: 15rem;
+      max-width: 15rem;
+      margin-bottom: 2rem;
+    }
+
+    h4 {
+      margin-bottom: 3rem;
     }
   }
 
@@ -155,7 +143,6 @@
 }
 
 .skills-section {
-  padding-bottom: 16rem;
   &__row {
     display: flex;
     justify-content: space-around;
