@@ -1,5 +1,4 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const PortfolioFooter = () => {
@@ -10,9 +9,6 @@ const PortfolioFooter = () => {
         <div className="footer__contact-icons">
           <a href="mailto: spencersaunders1537@gmail.com">
             <FontAwesomeIcon size="4x" icon={faEnvelope} />
-          </a>
-          <a href='https://linkedin.com'>
-            <FontAwesomeIcon size="4x" icon={faLinkedin} />
           </a>
         </div>
       </div>
