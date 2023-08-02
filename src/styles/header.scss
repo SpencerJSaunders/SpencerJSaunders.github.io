@@ -37,12 +37,11 @@
   &__contact-info-container {
     z-index: 1;
     position: absolute;
-    gap: 1rem;
+    column-gap: 1rem;
     top: 1rem;
     right: 1rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     flex-direction: row-reverse;
   }
 
