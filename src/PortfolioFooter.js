@@ -10,7 +10,7 @@ const PortfolioFooter = () => {
           <a href="mailto: spencersaunders1537@gmail.com">
             <FontAwesomeIcon size="4x" icon={faEnvelope} />
           </a>
-          <a href="https://linkedin.com/in/spencer-saunders-603854132">
+          <a href="https://www.linkedin.com/in/spencer-saunders1537">
             <FontAwesomeIcon size="4x" icon={faLinkedin} />
           </a>
         </div>

@@ -21,7 +21,7 @@ const PortfolioHeader = () => {
             className="portfolio-banner__contact-icon"
             rel="noreferrer"
             target="_blank"
-            href="https://linkedin.com/in/spencer-saunders-603854132"
+            href="https://www.linkedin.com/in/spencer-saunders1537"
           >
             <FontAwesomeIcon size="4x" icon={faLinkedin} />
           </a>

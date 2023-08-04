@@ -31,7 +31,7 @@ const ProjectsSection = () => {
             <a
               rel="noreferrer"
               target="_blank"
-              href="https://github.com/SpencerJSaunders/crypto-market-watch"
+              href="https://github.com/SpencerJSaunders/crypto-watch"
               className="projects-section__button"
             >
               Source Code
@@ -39,7 +39,7 @@ const ProjectsSection = () => {
             <a
               rel="noreferrer"
               target="_blank"
-              href="https://spencerjsaunders.github.io/crypto-market-watch"
+              href="https://crypto-watch-blond.vercel.app/"
               className="projects-section__button"
             >
               Website Link
