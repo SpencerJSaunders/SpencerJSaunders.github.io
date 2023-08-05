@@ -37,7 +37,7 @@ const SkillsSection = () => {
           <div className="skills-section__item">
            <FontAwesomeIcon size='7x' icon={faUniversalAccess}/>
             <h4>Accessibility</h4>
-            <p>Experience using Axe, Jaws, and Semantic HTML to create accessible 508-compliant websites.</p>
+            <p>Experience using Semantic HTML, ARIA labels, and Jaws screen reader to create accessible 508-compliant websites.</p>
           </div>
           <div className="skills-section__item">
             <FontAwesomeIcon size='7x' icon={faMicroscope} />
