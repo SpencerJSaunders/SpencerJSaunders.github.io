@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.9ba2e06a.css",
-    "main.js": "/static/js/main.0f451085.js",
+    "main.js": "/static/js/main.08fb240d.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/mountains.jpg": "/static/media/mountains.8be4036052a75c9f7d28.jpg",
     "static/media/spencer-portfolio.png": "/static/media/spencer-portfolio.b9fe97e58462ab8dbc7e.png",
     "static/media/spencer.png": "/static/media/spencer.4974db12e71272a2bb9f.png",
     "static/media/crypto.jpeg": "/static/media/crypto.7d375c9ee8e65a6cf687.jpeg",
     "static/media/bronco.png": "/static/media/bronco.1d34a9e4fe1a3c58bf18.png",
-    "static/media/resume.pdf": "/static/media/resume.cc8dda0971d7d9eaf0f1.pdf",
+    "static/media/resume.pdf": "/static/media/resume.e3fbe0ed6f8581a82512.pdf",
     "static/media/budget.jpg": "/static/media/budget.abae0a72b49d151801b0.jpg",
     "static/media/NerveRenew.jpg": "/static/media/NerveRenew.ffea0be46c9c2786ec62.jpg",
     "index.html": "/index.html",
     "main.9ba2e06a.css.map": "/static/css/main.9ba2e06a.css.map",
-    "main.0f451085.js.map": "/static/js/main.0f451085.js.map",
+    "main.08fb240d.js.map": "/static/js/main.08fb240d.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9ba2e06a.css",
-    "static/js/main.0f451085.js"
+    "static/js/main.08fb240d.js"
   ]
 }
