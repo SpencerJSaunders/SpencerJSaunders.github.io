@@ -37,8 +37,8 @@ const EmploymentHistory = () => {
                 Software Developer
               </h4>
               <p>
-                Worked on a large-scale healthcare application using React,
-                TypeScript, Sass, React Testing Library, Jest, MobX
+                Developer on a large-scale healthcare application using React,
+                JavaScript, TypeScript, Sass, MobX, React Testing Library, Jest
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -68,8 +68,8 @@ const EmploymentHistory = () => {
                 Front End Developer
               </h4>
               <p>
-                Built multiple web funnels for customers to place orders using
-                CSS, JavaScript, PHP, React
+                Created a customer checkout page, using JavaScript, HTML, CSS,
+                Bootstrap, MySQL, and PHP, that boosted revenue and profits
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
