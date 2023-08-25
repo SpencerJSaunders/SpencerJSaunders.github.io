@@ -22,7 +22,8 @@ const SkillsSection = () => {
             <p>
               3+ years of experience with React including React libraries like
               React Router, React Redux, and Mobx React Form. Experience with
-              Next.js to create pre-rendered React applications with file-based routing.
+              Next.js to create pre-rendered React applications with file-based
+              routing.
             </p>
           </div>
           <div className="skills-section__item">
@@ -38,8 +39,8 @@ const SkillsSection = () => {
             <h4>Programming Languages</h4>
             <p>
               5+ years of experience with JavaScript, HTML, CSS, and Sass. 1+
-              years of experience TypeScript. Some exposure to Python, Java, and
-              MySQL.
+              years of experience with TypeScript. Experience with Node.js and
+              Express.js. Some exposure to Python, Java, and MySQL.
             </p>
           </div>
         </div>
@@ -48,7 +49,7 @@ const SkillsSection = () => {
             <FontAwesomeIcon size="7x" icon={faPeopleGroup} />
             <h4>Agile</h4>
             <p>
-              5+ years of experience working in Agile environments with
+              5+ years of experience excelling in Agile environments with
               developers, stakeholders, business analysts, and designers.
             </p>
           </div>
@@ -56,8 +57,8 @@ const SkillsSection = () => {
             <FontAwesomeIcon size="7x" icon={faUniversalAccess} />
             <h4>Accessibility</h4>
             <p>
-              Experience using Semantic HTML, ARIA labels, and Jaws screen
-              reader to create accessible websites.
+              Experience implementing Semantic HTML, ARIA labels, keyboard
+              navigation to create accessible websites.
             </p>
           </div>
           <div className="skills-section__item">
@@ -65,7 +66,7 @@ const SkillsSection = () => {
             <h4>Unit Testing</h4>
             <p>
               Experience writing unit tests with Jest and React Testing Library
-              to reach full code coverage.
+              to improve code coverage
             </p>
           </div>
         </div>
