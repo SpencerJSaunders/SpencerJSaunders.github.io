@@ -38,7 +38,7 @@ const EmploymentHistory = () => {
               </h4>
               <p>
                 Developer on a large-scale healthcare application using React,
-                JavaScript, TypeScript, Sass, MobX, React Testing Library, Jest
+                TypeScript, Sass, MobX, React Testing Library, and Jest
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
