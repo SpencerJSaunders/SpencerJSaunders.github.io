@@ -1,7 +1,6 @@
 import "./styles/header.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub} from "@fortawesome/free-brands-svg-icons";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const PortfolioHeader = () => {
@@ -16,14 +15,6 @@ const PortfolioHeader = () => {
             href="https://github.com/SpencerJSaunders"
           >
             <FontAwesomeIcon size="4x" icon={faGithub} />
-          </a>
-          <a
-            className="portfolio-banner__contact-icon"
-            rel="noreferrer"
-            target="_blank"
-            href="https://www.linkedin.com/in/spencer-saunders1537"
-          >
-            <FontAwesomeIcon size="4x" icon={faLinkedin} />
           </a>
           <a
             className="portfolio-banner__contact-icon"

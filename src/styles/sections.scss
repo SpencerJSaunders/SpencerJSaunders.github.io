@@ -42,7 +42,9 @@
     color: black;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
 
     @include respond(tab-land) {
       flex-direction: column;
@@ -50,19 +52,20 @@
   }
 
   &__item {
-    flex-basis: 30%;
+    flex-basis: 35%;
     margin-bottom: 0;
     background-color: white;
     @include flex-item;
 
     @include respond(tab-land) {
       margin-bottom: 3rem;
-      flex-basis: 100%;
     }
+
     img {
       max-height: 15rem;
       max-width: 15rem;
       margin-bottom: 2rem;
+      border-radius: 10px;
     }
 
     h4 {
