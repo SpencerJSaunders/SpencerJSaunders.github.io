@@ -19,10 +19,7 @@ const ProjectsSection = () => {
             <img src={require("./imgs/calendar.png")} alt="Habit Tracker" />
             <h4>Habit Tracker</h4>
             <div className="projects-section__development-icons">
-              {/* TODO: Add title attribute to all development icons */}
-              <div title="React">
-                <ReactOriginal size={50} />
-              </div>
+              <ReactOriginal size={50} />
               <NextjsOriginalWordmark size={50} />
               <SassOriginal size={50} />
               <ReduxOriginal size={50} />
