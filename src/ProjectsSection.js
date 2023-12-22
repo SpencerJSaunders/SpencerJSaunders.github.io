@@ -49,8 +49,8 @@ const ProjectsSection = () => {
             <div className="projects-section__development-icons">
               <ReactOriginal size={50} />
               <NextjsOriginalWordmark size={50} />
-              <MaterialuiPlain size={50} />
               <SassOriginal size={50} />
+              <MaterialuiPlain size={50} />
             </div>
             <a
               rel="noreferrer"
@@ -74,9 +74,9 @@ const ProjectsSection = () => {
             <h4>Monthly Budgeting Application</h4>
             <div className="projects-section__development-icons">
               <ReactOriginal size={50} />
-              <ReduxOriginal size={50} />
               <SassOriginal size={50} />
               <BootstrapOriginal size={50} />
+              <ReduxOriginal size={50} />
             </div>
             <a
               rel="noreferrer"
