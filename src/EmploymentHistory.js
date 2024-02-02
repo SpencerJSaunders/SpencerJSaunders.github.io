@@ -36,7 +36,7 @@ const EmploymentHistory = () => {
                 Software Developer
               </h4>
               <p>
-                Developer on a large-scale healthcare application using React,
+                Developer on a large-scale healthcare application for the Department of Veterans Affairs using React,
                 TypeScript, Sass, MobX, React Testing Library, and Jest
               </p>
             </VerticalTimelineElement>
