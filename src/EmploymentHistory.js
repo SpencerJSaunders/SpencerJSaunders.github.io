@@ -4,7 +4,6 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import BoozAllenHamiltonLogo from "./imgs/booz.jpg";
-import LibertyITSolutionsLogo from "./imgs/liberty.jpg";
 import NerveRenewLogo from "./imgs/NerveRenew.jpg";
 import WiFiRangerLogo from "./imgs/wifiranger.jpg";
 import BoiseStateLogo from "./imgs/bronco.png";
@@ -22,7 +21,7 @@ const EmploymentHistory = () => {
           <VerticalTimeline>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              date="April 2022 - present"
+              date="August 2021 - present"
               icon={
                 <img
                   src={BoozAllenHamiltonLogo}
@@ -40,23 +39,6 @@ const EmploymentHistory = () => {
                 Developer on a large-scale healthcare application using React,
                 TypeScript, Sass, MobX, React Testing Library, and Jest
               </p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              date="July 2021 - April 2022"
-              icon={
-                <img
-                  src={LibertyITSolutionsLogo}
-                  alt="Liberty IT Solutions logo"
-                />
-              }
-            >
-              <h3 className="vertical-timeline-element-title">
-                Liberty IT Solutions, a Booz Allen Company
-              </h3>
-              <h4 className="vertical-timeline-element-subtitle">
-                Software Developer
-              </h4>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
