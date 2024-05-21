@@ -6,7 +6,7 @@ import { NextjsOriginalWordmark } from "devicons-react";
 import { MaterialuiPlain } from "devicons-react";
 import { SassOriginal } from "devicons-react";
 import { PrismaOriginalWordmark } from "devicons-react";
-import { TailwindcssPlainWordmark } from "devicons-react";
+import { TailwindcssOriginal } from "devicons-react";
 import { PostgresqlOriginalWordmark } from "devicons-react";
 
 const ProjectsSection = () => {
@@ -17,29 +17,29 @@ const ProjectsSection = () => {
         <p className="section__subheading">
           A selection of completed coding projects
         </p>
-        <div className="projects-section__item">
-          <img
-            src={require("./imgs/movie-and-tv-info.png")}
-            alt="Spencer Saunders Personal Portfolio"
-          />
-          <h4>Movie and TV Info</h4>
-          <div className="projects-section__development-icons">
-            <NextjsOriginalWordmark size={50} />
-            <ReactOriginal size={50} />
-            <PrismaOriginalWordmark size={50} />
-            <PostgresqlOriginalWordmark size={50} />
-            <TailwindcssPlainWordmark size={50} />
-          </div>
-          <a
-            rel="noreferrer"
-            target="_blank"
-            href="https://movie-and-tv-info.vercel.app/"
-            className="projects-section__button"
-          >
-            Website Link
-          </a>
-        </div>
         <div className="projects-section__row">
+          <div className="projects-section__item">
+            <img
+              src={require("./imgs/movie-and-tv-info.png")}
+              alt="Spencer Saunders Personal Portfolio"
+            />
+            <h4>Movie and TV Info</h4>
+            <div className="projects-section__development-icons">
+              <NextjsOriginalWordmark size={50} />
+              <ReactOriginal size={50} />
+              <TailwindcssOriginal size={50} />
+              <PostgresqlOriginalWordmark size={50} />
+              <PrismaOriginalWordmark size={50} />
+            </div>
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://movie-and-tv-info.vercel.app/"
+              className="projects-section__button"
+            >
+              Website Link
+            </a>
+          </div>
           <div className="projects-section__item">
             <img src={require("./imgs/calendar.png")} alt="Habit Tracker" />
             <h4>Habit Tracker</h4>
