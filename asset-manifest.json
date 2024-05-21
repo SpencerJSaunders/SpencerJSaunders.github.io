@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c80c9414.css",
-    "main.js": "/static/js/main.a2788272.js",
+    "main.js": "/static/js/main.30d1d21e.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/mountains.jpg": "/static/media/mountains.8be4036052a75c9f7d28.jpg",
     "static/media/movie-and-tv-info.png": "/static/media/movie-and-tv-info.acbb028824b968abae5a.png",
@@ -11,15 +11,14 @@
     "static/media/resume.pdf": "/static/media/resume.01fa6acb27d225d6f872.pdf",
     "static/media/bronco.png": "/static/media/bronco.1d34a9e4fe1a3c58bf18.png",
     "static/media/calendar.png": "/static/media/calendar.7b1121668ed3e276b906.png",
-    "static/media/budget.jpg": "/static/media/budget.abae0a72b49d151801b0.jpg",
     "static/media/NerveRenew.jpg": "/static/media/NerveRenew.ffea0be46c9c2786ec62.jpg",
     "index.html": "/index.html",
     "main.c80c9414.css.map": "/static/css/main.c80c9414.css.map",
-    "main.a2788272.js.map": "/static/js/main.a2788272.js.map",
+    "main.30d1d21e.js.map": "/static/js/main.30d1d21e.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c80c9414.css",
-    "static/js/main.a2788272.js"
+    "static/js/main.30d1d21e.js"
   ]
 }
