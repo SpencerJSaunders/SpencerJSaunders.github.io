@@ -95,32 +95,6 @@ const ProjectsSection = () => {
             </a>
           </div>
           <div className="projects-section__item">
-            <img src={require("./imgs/budget.jpg")} alt="Monthly Budgeting" />
-            <h4>Monthly Budgeting Application</h4>
-            <div className="projects-section__development-icons">
-              <ReactOriginal size={50} />
-              <SassOriginal size={50} />
-              <BootstrapOriginal size={50} />
-              <ReduxOriginal size={50} />
-            </div>
-            <a
-              rel="noreferrer"
-              target="_blank"
-              href="https://github.com/SpencerJSaunders/budgeting"
-              className="projects-section__button"
-            >
-              Source Code
-            </a>
-            <a
-              rel="noreferrer"
-              target="_blank"
-              href="https://spencerjsaunders.github.io/budgeting"
-              className="projects-section__button"
-            >
-              Website Link
-            </a>
-          </div>
-          <div className="projects-section__item">
             <img
               src={require("./imgs/spencer-portfolio.png")}
               alt="Spencer Saunders Personal Portfolio"
