@@ -25,8 +25,8 @@ const ProjectsSection = () => {
             />
             <h4>Movie and TV Info</h4>
             <div className="projects-section__development-icons">
-              <NextjsOriginalWordmark size={50} />
               <ReactOriginal size={50} />
+              <NextjsOriginalWordmark size={50} />
               <TailwindcssOriginal size={50} />
               <PostgresqlOriginalWordmark size={50} />
               <PrismaOriginalWordmark size={50} />
