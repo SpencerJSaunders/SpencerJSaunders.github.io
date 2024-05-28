@@ -64,8 +64,8 @@ const EmploymentHistory = () => {
                 Software Developer - Intern
               </h4>
               <p>
-                Worked on voice recognition software that was embedded in RV
-                routers
+                Developed voice recognition software that was embedded in RV
+                routers using Python
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
