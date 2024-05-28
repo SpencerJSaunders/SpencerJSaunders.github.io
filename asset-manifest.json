@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c80c9414.css",
-    "main.js": "/static/js/main.30d1d21e.js",
+    "main.js": "/static/js/main.e96e7858.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/mountains.jpg": "/static/media/mountains.8be4036052a75c9f7d28.jpg",
     "static/media/movie-and-tv-info.png": "/static/media/movie-and-tv-info.acbb028824b968abae5a.png",
@@ -14,11 +14,11 @@
     "static/media/NerveRenew.jpg": "/static/media/NerveRenew.ffea0be46c9c2786ec62.jpg",
     "index.html": "/index.html",
     "main.c80c9414.css.map": "/static/css/main.c80c9414.css.map",
-    "main.30d1d21e.js.map": "/static/js/main.30d1d21e.js.map",
+    "main.e96e7858.js.map": "/static/js/main.e96e7858.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c80c9414.css",
-    "static/js/main.30d1d21e.js"
+    "static/js/main.e96e7858.js"
   ]
 }
